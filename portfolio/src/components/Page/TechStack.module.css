@@ -128,6 +128,50 @@
   color: #ff6b6b;
 }
 
+.numpyIcon {
+  color: #4dabcf;
+}
+
+.pandasIcon {
+  color: #150458;
+}
+
+.scikitIcon {
+  color: #f7931e;
+}
+
+.tensorflowIcon {
+  color: #ff6f00;
+}
+
+.opencvIcon {
+  color: #5c3ee8;
+}
+
+/* Adjust grid for more items */
+.techGrid {
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Adjust card size for more compact layout */
+.techCard {
+  padding: 15px;
+}
+
+.iconWrapper {
+  font-size: 2.2rem;
+  height: 50px;
+  width: 50px;
+}
+
+.techName {
+  font-size: 0.85rem;
+}
+
 .techName {
   font-size: 0.9rem;
   font-weight: 500;

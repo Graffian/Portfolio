@@ -8,6 +8,11 @@ import {
   SiFirebase,
   SiReact,
   SiFastapi,
+  SiNumpy,
+  SiPandas,
+  SiScikitlearn,
+  SiTensorflow,
+  SiOpencv,
 } from "react-icons/si";
 import { BiBrain } from "react-icons/bi";
 import styles from "./TechStack.module.css";
@@ -28,6 +33,17 @@ const technologies = [
   { name: "React", icon: <SiReact className={styles.reactIcon} /> },
   { name: "FastAPI", icon: <SiFastapi className={styles.fastapiIcon} /> },
   { name: "Machine Learning", icon: <BiBrain className={styles.mlIcon} /> },
+  { name: "NumPy", icon: <SiNumpy className={styles.numpyIcon} /> },
+  { name: "Pandas", icon: <SiPandas className={styles.pandasIcon} /> },
+  {
+    name: "Scikit-learn",
+    icon: <SiScikitlearn className={styles.scikitIcon} />,
+  },
+  {
+    name: "TensorFlow",
+    icon: <SiTensorflow className={styles.tensorflowIcon} />,
+  },
+  { name: "OpenCV", icon: <SiOpencv className={styles.opencvIcon} /> },
 ];
 
 const TechStack = () => {
