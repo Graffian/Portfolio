@@ -1,0 +1,19 @@
+.projectSection {
+  background-color: #111;
+  padding: 100px 20px;
+}
+
+.sectionTitle {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+}
+
+.projectGrid {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+}

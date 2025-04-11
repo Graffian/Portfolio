@@ -1,0 +1,51 @@
+.formContainer {
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.form {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+.input {
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.input::placeholder {
+  color: #aaa;
+}
+
+.textarea {
+  color: #fff;
+  resize: none;
+  background-color: #333;
+  border: none;
+  border-radius: 8px;
+  height: 150px;
+  padding: 12px;
+}
+
+.textarea::placeholder {
+  color: #aaa;
+}
+
+.submitButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4a9eff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  transition: transform 0.2s;
+}
+
+.submitButton:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,82 @@
+.navbar {
+  backdrop-filter: blur(10px);
+  z-index: 100;
+  background-color: #000c;
+  width: 100%;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+}
+
+.navContent {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+}
+
+.profile {
+  align-items: center;
+  gap: 15px;
+  display: flex;
+}
+
+.profileImage {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+}
+
+.profileName {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.navLinks {
+  gap: 30px;
+  display: flex;
+}
+
+.navButton {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.navButton:hover {
+  background: rgba(74, 158, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.navButton:active {
+  transform: translateY(0);
+}
+
+.navIcon {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.navButton:hover .navIcon {
+  transform: scale(1.2);
+}
+
+.navButton:hover {
+  color: #fff;
+}

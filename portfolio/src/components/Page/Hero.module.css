@@ -1,0 +1,118 @@
+.heroSection {
+  background: linear-gradient(45deg, #000, #1a1a1a);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 80px 20px;
+  display: flex;
+}
+
+.heroContent {
+  align-items: center;
+  gap: 50px;
+  max-width: 1200px;
+  display: flex;
+}
+
+.textContent {
+  color: #fff;
+  flex: 1;
+}
+
+.title {
+  color: #4a9eff;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.description {
+  color: #ccc;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.buttonGroup {
+  gap: 20px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.primaryButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #4a9eff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  transition: transform 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.buttonIcon {
+  font-size: 1.2rem;
+}
+
+.primaryButton:hover {
+  transform: scale(1.05);
+}
+
+.secondaryButton {
+  color: #4a9eff;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #4a9eff;
+  border-radius: 8px;
+  padding: 12px 24px;
+  transition: all 0.2s;
+}
+
+.secondaryButton:hover {
+  color: #fff;
+  background: #4a9eff;
+}
+
+.imageContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.heroImage {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 30px #4a9eff33;
+}
+
+.decorativeShape {
+  z-index: -1;
+  background-color: #4a9eff;
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+}
+
+@media (max-width: 991px) {
+  .heroContent {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .buttonGroup {
+    justify-content: center;
+  }
+
+  .imageContainer {
+    width: 300px;
+    height: 300px;
+  }
+}

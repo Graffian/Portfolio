@@ -1,0 +1,25 @@
+.contactSection {
+  background-color: #0a0a0a;
+  padding: 100px 20px;
+}
+
+.sectionTitle {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+}
+
+.contactContainer {
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+}
+
+@media (max-width: 991px) {
+  .contactContainer {
+    grid-template-columns: 1fr;
+  }
+}

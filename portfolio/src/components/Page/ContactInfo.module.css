@@ -1,0 +1,106 @@
+.infoContainer {
+  flex-direction: column;
+  gap: 20px;
+  display: flex;
+}
+
+.contactDetails,
+.socialLinks {
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.infoTitle {
+  color: #4a9eff;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.contactList {
+  color: #fff;
+  flex-direction: column;
+  gap: 15px;
+  display: flex;
+}
+
+.contactList p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactIcon {
+  font-size: 1.2rem;
+  color: #4a9eff;
+}
+
+.socialButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.socialText {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .socialText {
+    display: inline;
+  }
+}
+
+.socialButtons {
+  gap: 15px;
+  display: flex;
+}
+
+.socialButton {
+  color: #fff;
+  background-color: #333;
+  border-radius: 8px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.socialButton:hover {
+  background: #4a9eff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(74, 158, 255, 0.3);
+}
+
+.socialButton:active {
+  transform: translateY(0);
+}
+
+.socialButton::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition:
+    width 0.6s ease,
+    height 0.6s ease;
+}
+
+.socialButton:hover::before {
+  width: 200%;
+  height: 200%;
+}
+
+.contactIcon {
+  transition: transform 0.3s ease;
+}
+
+.contactList p:hover .contactIcon {
+  transform: scale(1.2);
+}
