@@ -1,5 +1,6 @@
 import project1 from "../../../assets/project1.png";
 import project2 from "../../../assets/project2.png";
+import project3 from "../../../assets/project3.png";
 
 
 export const projects = [
@@ -21,5 +22,15 @@ export const projects = [
     image: project2,
     githubUrl: "https://github.com/Graffian/learn-sphere-hackjmi",
     liveUrl: "https://learn-sphere-pearl.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Emotion Recognition",
+    description:
+      "Emotion-Recog is an AI-powered web application designed to assist therapists by recognizing patient emotions in real-time through facial expression analysis. It features secure login for patients using credentials provided by their therapist",
+    technologies: ["React", "FastAPI", "SQLITE3"],
+    image: project3,
+    githubUrl: "https://github.com/Graffian/Emotion-Recog",
+    liveUrl: "#",
   },
 ];
