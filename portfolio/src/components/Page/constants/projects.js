@@ -33,4 +33,14 @@ export const projects = [
     githubUrl: "https://github.com/Graffian/Emotion-Recog",
     liveUrl: "#",
   },
+  {
+    id: 4,
+    title: "RakthVeer",
+    description:
+      "Rakthveer is an AI-powered blood donation platform focused on security, smart recommendations, and efficient donor management. It combines modern machine learning and computer vision to make blood donation easier, faster, and safer.",
+    technologies: ["React", "FastAPI", "Keras" , "Tensorflow" , "numpy"],
+    image: project3,
+    githubUrl: "https://github.com/Graffian/RakthVeer",
+    liveUrl: "#",
+  },
 ];
