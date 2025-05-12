@@ -1,6 +1,7 @@
 import project1 from "../../../assets/project1.png";
 import project2 from "../../../assets/project2.png";
 import project3 from "../../../assets/project3.png";
+import project4 from "../../../assets/project4.png";
 
 
 export const projects = [
@@ -39,7 +40,7 @@ export const projects = [
     description:
       "Rakthveer is an AI-powered blood donation platform focused on security, smart recommendations, and efficient donor management. It combines modern machine learning and computer vision to make blood donation easier, faster, and safer.",
     technologies: ["React", "FastAPI", "Keras" , "Tensorflow" , "numpy"],
-    image: project3,
+    image: project4,
     githubUrl: "https://github.com/Graffian/RakthVeer",
     liveUrl: "#",
   },
